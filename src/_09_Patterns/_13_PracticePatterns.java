@@ -1,6 +1,6 @@
 package _09_Patterns;
 
-public class _03_Patterns3 {
+public class _13_PracticePatterns {
 	
 /* 1) Print the Pattern *                03/07/2026
 	                    * *
@@ -78,7 +78,7 @@ public class _03_Patterns3 {
      * * 
      * 
 */
-	void Pattern() {
+	void Pattern5() {
 		for(int row=1; row<=5; row++) {
 			for(int col=5; col>=row; col--) {
 				System.out.print("* ");
@@ -90,14 +90,13 @@ public class _03_Patterns3 {
 	
 	
 	public static void main(String[] args) {
-		_03_Patterns3 obj = new _03_Patterns3();
+		_13_PracticePatterns obj = new _13_PracticePatterns();
 		
 		obj.Pattern1();
 		obj.Pattern2();
 		obj.Pattern3();
 		obj.Pattern4();
-		obj.Pattern();
-
+		obj.Pattern5();
 		
 	}
 
