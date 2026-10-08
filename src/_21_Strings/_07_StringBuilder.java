@@ -1,6 +1,6 @@
 package _21_Strings;
 
-public class _07_StringBuffer {
+public class _07_StringBuilder {
 	public static void main(String[] args) {
 		
 		StringBuilder sb = new StringBuilder("java ");
