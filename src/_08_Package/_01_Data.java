@@ -1,5 +1,6 @@
 package _08_Package;
-import _08_Package2.Name;
+import _09_Package1.Name;
+
 public class _01_Data {
 	
 	
